@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy — Flowbase</title>
+  <meta name="description" content="How Flowbase handles your data." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .legal__top { border-bottom: 1px solid var(--border); }
+    .legal__top .container { display: flex; align-items: center; justify-content: space-between; padding-block: 1.1rem; }
+    .legal__back { font-weight: 600; color: var(--accent-deep); }
+    .legal__back:hover { text-decoration: underline; }
+    .legal { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 5rem; }
+    .legal h1 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.02em; margin-bottom: .4rem; }
+    .legal h2 { font-size: 1.35rem; font-weight: 500; margin: 2.2rem 0 .6rem; }
+    .legal p, .legal li { color: var(--muted); margin-bottom: .8rem; line-height: 1.7; }
+    .legal ul { padding-left: 1.2rem; list-style: disc; }
+    .legal a { color: var(--accent-deep); text-decoration: underline; }
+    .legal__updated { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+    .legal__notice { background: var(--accent-soft); border: 1px solid #ecd6c8; border-radius: var(--r-md); padding: 1rem 1.2rem; margin-bottom: 2.4rem; color: var(--accent-deep); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <header class="legal__top">
+    <div class="container">
+      <a href="index.html#home" class="brand" aria-label="Flowbase home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <rect width="32" height="32" rx="8" fill="#C2613D"/>
+            <path d="M10 22c0-7 4-12 12-12" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M10 16c4 0 6-2 6-6" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </span>
+        <span class="brand__name">Flowbase</span>
+      </a>
+      <a href="index.html#home" class="legal__back">← Back to site</a>
+    </div>
+  </header>
+
+  <main class="legal">
+    <p class="legal__notice"><strong>Template.</strong> This is starter text — have it reviewed by a professional and translated to Dutch before launch.</p>
+
+    <h1>Privacy Policy</h1>
+    <p class="legal__updated">Last updated: 18 June 2026</p>
+
+    <p>Flowbase ("I", "me") respects your privacy. This page explains what data this website handles and why. I only collect what I genuinely need to reply to you.</p>
+
+    <h2>What I collect</h2>
+    <p>Only the details you choose to send through the contact form: your <strong>name</strong>, <strong>business name</strong>, <strong>email address</strong>, and your <strong>message</strong>. I don't run advertising or analytics trackers.</p>
+
+    <h2>How I use it</h2>
+    <p>Your details are used solely to respond to your enquiry and, if we work together, to deliver the service. I never sell your data or share it for marketing.</p>
+
+    <h2>The contact form</h2>
+    <p>Form submissions are delivered to me by email, via the form-handling service <a href="https://web3forms.com/privacy" target="_blank" rel="noopener">Web3Forms</a>, which processes the message only to forward it. If the form isn't connected yet, it instead opens your own email app with the message pre-filled.</p>
+
+    <h2>Storage on your device</h2>
+    <p>This site stores two small, non-tracking values in your browser's local storage: your <strong>language choice</strong> (NL/EN) and whether you've <strong>dismissed the privacy notice</strong>. These never leave your device and aren't used to identify you.</p>
+
+    <h2>Fonts</h2>
+    <p>Fonts are loaded from Google Fonts, which may receive your IP address as part of serving the font files. See Google's privacy policy for details.</p>
+
+    <h2>Your rights</h2>
+    <p>Under the GDPR you can ask to access, correct, or delete the data you've sent me at any time. Just email <a href="mailto:hello.flowbase@outlook.com">hello.flowbase@outlook.com</a> and I'll take care of it.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about your privacy? Email <a href="mailto:hello.flowbase@outlook.com">hello.flowbase@outlook.com</a>.</p>
+  </main>
+
+  <footer class="footer section--dark">
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Flowbase. All rights reserved.</p>
+      <p><a href="index.html#home">flowbase.nl</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" data-page="pricing">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing — Flowbase</title>
+  <meta name="description" content="Clear, honest pricing for websites, branding, social content, and custom web apps — for local businesses in the Netherlands. No surprises." />
+  <meta name="theme-color" content="#F7F5F1" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Flowbase" />
+  <meta property="og:title" content="Pricing — Flowbase" />
+  <meta property="og:description" content="Websites, branding, social content, and custom web apps — clear pricing, no surprises." />
+  <meta property="og:url" content="https://flowbase.nl/pricing.html" />
+  <meta property="og:image" content="https://flowbase.nl/assets/img/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://flowbase.nl/assets/img/og-image.jpg" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="apple-mobile-web-app-title" content="Flowbase" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <!-- FAQ rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How long until my website is live?", "acceptedAnswer": { "@type": "Answer", "text": "Most sites go live in around two weeks once I have your content. Bigger builds with booking or logins take a little longer — you'll always get a clear timeline upfront." } },
+      { "@type": "Question", "name": "Who owns the website and the content?", "acceptedAnswer": { "@type": "Answer", "text": "You do — completely. The site, the copy, the images, and the domain are yours. There's no lock-in and nothing held hostage." } },
+      { "@type": "Question", "name": "What's included in the monthly care plan?", "acceptedAnswer": { "@type": "Answer", "text": "Hosting, security, backups, software updates, and small content tweaks — so your site stays fast, safe, and current without you having to think about it." } },
+      { "@type": "Question", "name": "Do I have to write the text myself?", "acceptedAnswer": { "@type": "Answer", "text": "No. I draft the copy and structure based on our chat about your business — you just review and approve. Good writing is part of the job." } },
+      { "@type": "Question", "name": "Can you also handle my social media?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — that's the content side of Flowbase. Posts and reels, done for you every month, either on their own or bundled with your care plan." } },
+      { "@type": "Question", "name": "How does payment work?", "acceptedAnswer": { "@type": "Answer", "text": "A deposit to get started and the rest on completion for the build. Monthly plans are billed month to month, and you can cancel whenever you like." } }
+    ]
+  }
+  </script>
+
+  <script type="speculationrules">
+  { "prefetch": [ { "source": "document", "where": { "href_matches": "/*" }, "eagerness": "moderate" } ] }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('flowbase-theme');
+        if (t !== 'dark' && t !== 'light') { t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+        if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="brand" aria-label="Flowbase home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+            <rect width="32" height="32" rx="8" fill="#C2613D"/>
+            <path d="M10 22c0-7 4-12 12-12" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M10 16c4 0 6-2 6-6" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </span>
+        <span class="brand__name">Flowbase</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="pricing.html" class="is-active" aria-current="page" data-i18n="nav.pricing">Pricing</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav__cta">
+        <button type="button" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+        <div class="lang-switch" role="group" aria-label="Language / Taal">
+          <button type="button" class="lang-switch__btn" data-lang="nl" aria-label="Nederlands" aria-pressed="false">NL</button>
+          <button type="button" class="lang-switch__btn" data-lang="en" aria-label="English" aria-pressed="true">EN</button>
+        </div>
+        <a href="contact.html" class="btn btn--accent btn--sm" data-i18n="nav.cta">Get in touch</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="pricing.html" class="is-active" aria-current="page" data-i18n="nav.pricing">Pricing</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="mobile-menu__lang">
+        <span data-i18n="nav.language">Language</span>
+        <div class="lang-switch" role="group" aria-label="Language / Taal">
+          <button type="button" class="lang-switch__btn" data-lang="nl" aria-label="Nederlands" aria-pressed="false">NL</button>
+          <button type="button" class="lang-switch__btn" data-lang="en" aria-label="English" aria-pressed="true">EN</button>
+        </div>
+      </div>
+      <div class="mobile-menu__lang">
+        <span data-i18n="nav.theme">Theme</span>
+        <button type="button" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </div>
+      <a href="contact.html" class="btn btn--accent btn--block" data-i18n="nav.cta">Get in touch</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container page-header__inner reveal">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pricing.eyebrow">Pricing</span></p>
+        <h1 data-i18n="pricing.title">Simple, honest pricing. No surprises.</h1>
+        <p class="lead" data-i18n="pricing.lead">Four ways I help local businesses grow online — clear, honest pricing for each, with no surprises.</p>
+      </div>
+    </section>
+
+    <!-- ========== 1 · WEBSITES (primary) ========== -->
+    <section class="section" id="websites" aria-labelledby="websites-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.web">Websites</span></p>
+          <h2 class="section__title" id="websites-title" data-i18n="pr.web.title">Build a website that turns visitors into customers.</h2>
+          <div class="bestfor-row">
+            <span class="bestfor-row__label" data-i18n="pr.bestforLabel">Best for</span>
+            <div class="tags">
+              <span class="tag" data-i18n="aud.restaurants">Restaurants</span>
+              <span class="tag" data-i18n="tag.barbers">Barbers</span>
+              <span class="tag" data-i18n="tag.clinics">Clinics</span>
+              <span class="tag" data-i18n="aud.gyms">Gyms</span>
+              <span class="tag" data-i18n="aud.contractors">Contractors</span>
+            </div>
+          </div>
+          <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.web">One-time build</span></div>
+        </div>
+
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.w1.name">Starter Website</h3></header>
+            <div class="price"><span class="price__amount">€695</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w1.t1">Up to 5 pages</li>
+              <li data-i18n="pr.w1.t2">Custom design</li>
+              <li data-i18n="pr.w1.t3">Mobile responsive</li>
+              <li data-i18n="pr.w1.t4">Basic SEO</li>
+              <li data-i18n="pr.w1.t5">Contact form</li>
+              <li data-i18n="pr.w1.t6">2 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.w2.name">Growth Website</h3></header>
+            <div class="price"><span class="price__amount">€1,295</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w2.t1">Up to 10 pages</li>
+              <li data-i18n="pr.w2.t2">More custom sections</li>
+              <li data-i18n="pr.w2.t3">Better animations</li>
+              <li data-i18n="pr.w2.t4">Blog support</li>
+              <li data-i18n="pr.w2.t5">SEO setup</li>
+              <li data-i18n="pr.w2.t6">3 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.w3.name">Premium Website</h3></header>
+            <div class="price"><span class="price__amount">€2,495+</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w3.t1">Fully custom design</li>
+              <li data-i18n="pr.w3.t2">Advanced animations</li>
+              <li data-i18n="pr.w3.t3">Copywriting assistance</li>
+              <li data-i18n="pr.w3.t4">Premium layouts</li>
+              <li data-i18n="pr.w3.t5">Priority support</li>
+              <li data-i18n="pr.w3.t6">4 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+
+        <!-- recurring add-on: care plans -->
+        <div class="care reveal">
+          <div class="care__head">
+            <span class="care__tag care__tag--opt" data-i18n="pr.care.tag">Optional monthly add-on</span>
+            <h3 class="care__title" data-i18n="pr.care.title">Monthly Website Care Plans</h3>
+          </div>
+          <div class="care-grid">
+            <div class="care-card">
+              <div class="care-card__top">
+                <span class="care-card__name" data-i18n="pr.care1.name">Basic Care</span>
+                <span class="care-card__price">€29<small data-i18n="unit.permo">/mo</small></span>
+              </div>
+              <ul class="ticks">
+                <li data-i18n="pr.care1.t1">Hosting</li>
+                <li data-i18n="pr.care1.t2">Small text updates</li>
+              </ul>
+            </div>
+            <div class="care-card care-card--pop">
+              <span class="badge" data-i18n="bundle.badge">Most popular</span>
+              <div class="care-card__top">
+                <span class="care-card__name" data-i18n="pr.care2.name">Growth Care</span>
+                <span class="care-card__price">€59<small data-i18n="unit.permo">/mo</small></span>
+              </div>
+              <ul class="ticks">
+                <li data-i18n="pr.care2.t1">Hosting</li>
+                <li data-i18n="pr.care2.t2">Content changes</li>
+                <li data-i18n="pr.care2.t3">Priority support</li>
+                <li data-i18n="pr.care2.t4">Monthly backups</li>
+              </ul>
+            </div>
+            <div class="care-card">
+              <div class="care-card__top">
+                <span class="care-card__name" data-i18n="pr.care3.name">Premium Care</span>
+                <span class="care-card__price">€99<small data-i18n="unit.permo">/mo</small></span>
+              </div>
+              <ul class="ticks">
+                <li data-i18n="pr.care3.t1">Everything above</li>
+                <li data-i18n="pr.care3.t2">Landing pages</li>
+                <li data-i18n="pr.care3.t3">Ongoing improvements</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 2 · BRANDING ========== -->
+    <section class="section section--alt" id="branding" aria-labelledby="branding-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.brand">Branding</span></p>
+          <h2 class="section__title" id="branding-title" data-i18n="pr.brand.title">A professional identity for your business.</h2>
+          <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.brand">One-time project</span></div>
+        </div>
+
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.b1.name">Logo Package</h3></header>
+            <div class="price"><span class="price__amount">€195</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b1.t1">Logo</li>
+              <li data-i18n="pr.b1.t2">PNG files</li>
+              <li data-i18n="pr.b1.t3">SVG files</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.b2.name">Brand Identity</h3></header>
+            <div class="price"><span class="price__amount">€495</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b2.t1">Logo</li>
+              <li data-i18n="pr.b2.t2">Colors</li>
+              <li data-i18n="pr.b2.t3">Typography</li>
+              <li data-i18n="pr.b2.t4">Social profile assets</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.b3.name">Premium Brand System</h3></header>
+            <div class="price"><span class="price__amount">€895</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b3.t1">Logo</li>
+              <li data-i18n="pr.b3.t2">Colors</li>
+              <li data-i18n="pr.b3.t3">Typography</li>
+              <li data-i18n="pr.b3.t4">Brand guide</li>
+              <li data-i18n="pr.b3.t5">Brand voice</li>
+              <li data-i18n="pr.b3.t6">Social assets</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3 · SOCIAL MEDIA CONTENT ========== -->
+    <section class="section" id="content" aria-labelledby="content-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-7"/><path d="M21 8v5h-5"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.content">Social media content</span></p>
+          <h2 class="section__title" id="content-title" data-i18n="pr.content.title">Content for your business — ready to post.</h2>
+          <p class="section__lead" data-i18n="pr.content.lead">You receive the content and post it yourself. No scheduling, no management — just great content delivered to you.</p>
+          <div class="billing-row"><span class="bill bill--monthly" data-i18n="pr.bill.content">Monthly subscription — cancel anytime</span></div>
+        </div>
+
+        <p class="sublabel" data-i18n="pr.s.blockA">Monthly plans</p>
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.s1.name">Starter Content</h3></header>
+            <div class="price"><span class="price__amount">€149</span><span class="price__unit" data-i18n="unit.permonth">/month</span></div>
+            <p class="price-card__for" data-i18n="pr.s1.for">For businesses that want a simple but consistent presence.</p>
+            <ul class="ticks">
+              <li data-i18n="pr.s1.t1">3 posts</li>
+              <li data-i18n="pr.s1.t2">2 reels</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.s2.name">Growth Content</h3></header>
+            <div class="price"><span class="price__amount">€249</span><span class="price__unit" data-i18n="unit.permonth">/month</span></div>
+            <p class="price-card__for" data-i18n="pr.s2.for">For businesses that want regular content and steady growth.</p>
+            <ul class="ticks">
+              <li data-i18n="pr.s2.t1">5 posts</li>
+              <li data-i18n="pr.s2.t2">3 reels</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.s3.name">Premium Content</h3></header>
+            <div class="price"><span class="price__amount">€399</span><span class="price__unit" data-i18n="unit.permonth">/month</span></div>
+            <p class="price-card__for" data-i18n="pr.s3.for">For businesses that want maximum visibility.</p>
+            <ul class="ticks">
+              <li data-i18n="pr.s3.t1">10 posts</li>
+              <li data-i18n="pr.s3.t2">4 reels</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+
+        <!-- one-time, no subscription — entry option, lighter weight than the monthly plans -->
+        <div class="buy reveal">
+          <div class="buy__head">
+            <span class="buy__tag" data-i18n="pr.sep.sub">One-time — no subscription</span>
+            <h3 class="buy__title" data-i18n="pr.sep.title">Buy separately</h3>
+          </div>
+          <div class="buy__groups">
+            <div class="buy__group">
+              <span class="buy__grouplabel" data-i18n="pr.sep.posts">Posts</span>
+              <ul class="buy__list">
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.p3">3 posts</span><span class="buyrow__price">€59</span></li>
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.p5">5 posts</span><span class="buyrow__price">€89</span></li>
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.p10">10 posts</span><span class="buyrow__price">€159</span></li>
+              </ul>
+            </div>
+            <div class="buy__group">
+              <span class="buy__grouplabel" data-i18n="pr.sep.reels">Reels</span>
+              <ul class="buy__list">
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.r1">1 reel</span><span class="buyrow__price">€45</span></li>
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.r2">2 reels</span><span class="buyrow__price">€79</span></li>
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.sep.r4">4 reels</span><span class="buyrow__price">€149</span></li>
+              </ul>
+            </div>
+          </div>
+          <p class="buy__note" data-i18n="pr.sep.note">Each post includes image and caption, ready to upload.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4 · WEB APPS — MICRO-SAAS (quiet upsell, last) ========== -->
+    <section class="section section--alt" id="webapps" aria-labelledby="webapps-title">
+      <div class="container">
+        <div class="section__head section__head--sm reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.webapp">Web apps</span></p>
+          <h2 class="section__title" id="webapps-title" data-i18n="pr.webapp.title">Custom software built around your business.</h2>
+          <p class="section__lead" data-i18n="pr.webapp.lead">Small, focused web apps — not bloated enterprise systems. Built fast, priced fairly, maintained monthly.</p>
+          <div class="bestfor-row">
+            <span class="bestfor-row__label" data-i18n="pr.wa.label">Examples</span>
+            <div class="tags">
+              <span class="tag" data-i18n="pr.wa.ex1">Booking tool</span>
+              <span class="tag" data-i18n="pr.wa.ex2">Client portal</span>
+              <span class="tag" data-i18n="pr.wa.ex3">Simple CRM</span>
+              <span class="tag" data-i18n="pr.wa.ex4">Membership site</span>
+              <span class="tag" data-i18n="pr.wa.ex5">Reservation system</span>
+              <span class="tag" data-i18n="pr.wa.ex6">Internal dashboard</span>
+            </div>
+          </div>
+          <div class="billing-row"><span class="bill bill--req" data-i18n="pr.bill.webapp">One-time build + required monthly care</span></div>
+        </div>
+
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card price-card--quiet reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.wa1.name">Starter App</h3></header>
+            <div class="price"><span class="price__amount">€1,495</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa1.t1">Landing page</li>
+              <li data-i18n="pr.wa1.t2">User login and authentication</li>
+              <li data-i18n="pr.wa1.t3">Simple dashboard</li>
+              <li data-i18n="pr.wa1.t4">Database</li>
+              <li data-i18n="pr.wa1.t5">Mobile responsive</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card price-card--quiet price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.wa2.name">Growth App</h3></header>
+            <div class="price"><span class="price__amount">€2,995</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa2.t1">Everything in Starter</li>
+              <li data-i18n="pr.wa2.t2">Payments (Stripe / Mollie / iDEAL)</li>
+              <li data-i18n="pr.wa2.t3">User accounts and profiles</li>
+              <li data-i18n="pr.wa2.t4">Admin panel</li>
+              <li data-i18n="pr.wa2.t5">Larger advanced dashboard</li>
+              <li data-i18n="pr.wa2.t6">Email notifications</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+
+          <article class="card price-card price-card--quiet reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.wa3.name">Max App</h3></header>
+            <div class="price"><span class="price__amount">€4,500+</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa3.t1">Everything in Growth</li>
+              <li data-i18n="pr.wa3.t2">Google integrations (Calendar, login, etc.)</li>
+              <li data-i18n="pr.wa3.t3">Third-party integrations and APIs</li>
+              <li data-i18n="pr.wa3.t4">Advanced features and custom logic</li>
+              <li data-i18n="pr.wa3.t5">Priority support</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+
+        <!-- required recurring plan — visually distinct from the optional website care -->
+        <div class="care care--req reveal">
+          <div class="care__head">
+            <span class="care__tag care__tag--req" data-i18n="pr.appcare.tag">Required monthly plan</span>
+            <h3 class="care__title" data-i18n="pr.appcare.title">App Care</h3>
+            <span class="care-card__price care__price">€49 – €149<small data-i18n="unit.permo">/mo</small></span>
+          </div>
+          <ul class="ticks care__ticks">
+            <li data-i18n="pr.appcare.t1">Hosting</li>
+            <li data-i18n="pr.appcare.t2">Database</li>
+            <li data-i18n="pr.appcare.t3">Updates and bug fixes</li>
+            <li data-i18n="pr.appcare.t4">Uptime monitoring</li>
+          </ul>
+          <p class="care__note" data-i18n="pr.appcare.note">All web apps require a monthly care plan to cover hosting, database, and maintenance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guarantee -->
+    <section class="section guarantee" aria-labelledby="guarantee-title">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="guarantee.eyebrow">My promise</span></p>
+          <h2 class="section__title" id="guarantee-title" data-i18n="guarantee.title">No risk. Just a site you'll be proud of.</h2>
+        </div>
+        <div class="grid grid--3">
+          <article class="card guarantee-card reveal">
+            <div class="guarantee-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V5z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 data-i18n="guarantee1.title">Fixed price, no surprises</h3>
+            <p data-i18n="guarantee1.body">The price we agree on is the price you pay. No padded hours, no surprise invoices — ever.</p>
+          </article>
+          <article class="card guarantee-card reveal">
+            <div class="guarantee-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M7.5 4.27 12 6.81l4.5-2.54"/></svg>
+            </div>
+            <h3 data-i18n="guarantee2.title">You own everything</h3>
+            <p data-i18n="guarantee2.body">The website, the content, and the domain are 100% yours. Walk away whenever you like — it all comes with you.</p>
+          </article>
+          <article class="card guarantee-card reveal">
+            <div class="guarantee-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></svg>
+            </div>
+            <h3 data-i18n="guarantee3.title">No lock-in care plan</h3>
+            <p data-i18n="guarantee3.body">Monthly plans are billed month to month. Pause or cancel anytime — no long contracts, no penalties.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="faq.eyebrow">FAQ</span></p>
+          <h2 class="section__title" id="faq-title" data-i18n="faq.title">Questions, answered honestly.</h2>
+          <p class="section__lead" data-i18n="faq.lead">Still wondering about something? Email me — I'm happy to help, no pressure.</p>
+        </div>
+
+        <div class="faq reveal">
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q1">How long until my website is live?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a1">Most sites go live in around two weeks once I have your content. Bigger builds with booking or logins take a little longer — you'll always get a clear timeline upfront.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q2">Who owns the website and the content?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a2">You do — completely. The site, the copy, the images, and the domain are yours. There's no lock-in and nothing held hostage.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q3">What's included in the monthly care plan?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a3">Hosting, security, backups, software updates, and small content tweaks — so your site stays fast, safe, and current without you having to think about it.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q4">Do I have to write the text myself?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a4">No. I draft the copy and structure based on our chat about your business — you just review and approve. Good writing is part of the job.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q5">Can you also handle my social media?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a5">Yes — that's the content side of Flowbase. Posts and reels, done for you every month, either on their own or bundled with your care plan.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary><span data-i18n="faq.q6">How does payment work?</span><span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__a"><p data-i18n="faq.a6">A deposit to get started and the rest on completion for the build. Monthly plans are billed month to month, and you can cancel whenever you like.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-label="Get started">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <p class="cta-band__title" data-i18n="cta1.title">Ready to look as good online as you are in person?</p>
+          <p class="cta-band__sub" data-i18n="cta1.sub">Tell me about your business — the first chat is free and no-pressure.</p>
+        </div>
+        <a href="contact.html" class="btn btn--accent btn--lg" data-i18n="cta1.btn">Start your project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section--dark">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="brand brand--light" aria-label="Flowbase home">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="28" height="28" fill="none">
+              <rect width="32" height="32" rx="8" fill="#C2613D"/>
+              <path d="M10 22c0-7 4-12 12-12" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+              <path d="M10 16c4 0 6-2 6-6" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+          </span>
+          <span class="brand__name">Flowbase</span>
+        </a>
+        <p class="footer__tag" data-i18n="footer.tag">Websites &amp; content that grow your business.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <h4 data-i18n="footer.studio">Studio</h4>
+        <a href="services.html" data-i18n="nav.services">Services</a>
+        <a href="pricing.html" data-i18n="nav.pricing">Pricing</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="footer__contact">
+        <h4 data-i18n="footer.getintouch">Get in touch</h4>
+        <a href="mailto:hello.flowbase@outlook.com">hello.flowbase@outlook.com</a>
+        <a href="https://www.instagram.com/flowbase.studio/" target="_blank" rel="noopener">Instagram — @flowbase.studio</a>
+        <a href="https://www.linkedin.com/in/flowbase-studio-45427a419/" target="_blank" rel="noopener">LinkedIn — Flowbase studio</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Flowbase. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <nav class="footer__legal" aria-label="Legal">
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
+        <a href="terms.html" data-i18n="footer.terms">Terms</a>
+      </nav>
+      <p data-i18n="footer.madein">Made in the Netherlands</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" hidden>
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M17.5 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15s-.77.97-.94 1.17c-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.2 5.07 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12 2a10 10 0 0 0-8.6 15.08L2 22l5.05-1.32A10 10 0 1 0 12 2zm0 18.2c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3 .79.8-2.93-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+  </a>
+
+  <div class="mobile-bar" id="mobileBar">
+    <a href="contact.html" class="btn btn--accent mobile-bar__cta" data-i18n="nav.cta">Get in touch</a>
+    <a class="mobile-bar__wa" id="waBar" target="_blank" rel="noopener" aria-label="WhatsApp" hidden>
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15s-.77.97-.94 1.17c-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.2 5.07 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12 2a10 10 0 0 0-8.6 15.08L2 22l5.05-1.32A10 10 0 1 0 12 2zm0 18.2c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3 .79.8-2.93-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+    </a>
+  </div>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <div class="cookie" id="cookieNote" role="region" aria-label="Privacy notice" hidden>
+    <p data-i18n="cookie.text">This site doesn't track you — it only remembers your language choice on your own device.</p>
+    <div class="cookie__actions">
+      <a href="privacy.html" class="cookie__link" data-i18n="cookie.link">Privacy</a>
+      <button class="btn btn--accent btn--sm" id="cookieOk" type="button" data-i18n="cookie.ok">Got it</button>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

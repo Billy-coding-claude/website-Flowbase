@@ -1,0 +1,8 @@
+# Local editor tooling — not part of the website
+.claude/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
