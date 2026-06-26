@@ -441,7 +441,117 @@
       'pr.appcare.t2': 'Database',
       'pr.appcare.t3': 'Updates and bug fixes',
       'pr.appcare.t4': 'Uptime monitoring',
-      'pr.appcare.note': 'All web apps require a monthly care plan to cover hosting, database, and maintenance.'
+      'pr.appcare.note': 'All web apps require a monthly care plan to cover hosting, database, and maintenance.',
+
+      /* bundles */
+      'pr.bun.eyebrow': 'Bundles',
+      'pr.bun.title': 'Everything in one package.',
+      'pr.bun.lead': 'Website, branding and content — with 3 months free care. Better together, priced to match.',
+      'pr.bun.was': 'Normally',
+      'pr.bun.saving': 'You save',
+      'pr.bun.after': 'From month 4:',
+      'pr.bun.cta': 'Choose this bundle',
+      'pr.bun.toggle.web': 'Website',
+      'pr.bun.toggle.app': 'App',
+      'pr.bun.cmp.title': "What's in each bundle",
+      'pr.bun.cmp.site': 'Website / App',
+      'pr.bun.cmp.brand': 'Branding',
+      'pr.bun.cmp.content': 'Content',
+      'pr.bun.cmp.ai': 'AI Assistant',
+      'pr.bun.cmp.care': 'Care plan',
+      'pr.bun.cmp.price': 'Price',
+      'pr.bun.cmp.b1site': 'Starter website',
+      'pr.bun.cmp.b2site': 'Growth website or Starter app',
+      'pr.bun.cmp.b3site': 'Max website or Growth app',
+      'pr.bun.cmp.b1brand': 'Starter',
+      'pr.bun.cmp.b2brand': 'Growth',
+      'pr.bun.cmp.b3brand': 'Max',
+      'pr.bun.cmp.b1con': 'Starter (3+1)',
+      'pr.bun.cmp.b2con': 'Growth (5+2)',
+      'pr.bun.cmp.b3con': 'Max (8+3)',
+      'pr.bun.cmp.b1care': 'Basic (3mo free)',
+      'pr.bun.cmp.b2care': 'Professional (3mo free)',
+      'pr.bun.cmp.b3care': 'Premium (3mo free)',
+      'pr.bun.cmp.b2price': 'from €2,295',
+      'pr.bun.cmp.b3price': 'from €3,695',
+      'pr.bun1.name': 'Starter',
+      'pr.bun1.tag': 'Professional online in one go.',
+      'pr.bun1.free': '3 months free Basic care included',
+      'pr.bun1.i1': 'Starter website',
+      'pr.bun1.i2': 'Starter branding',
+      'pr.bun1.i3': 'Starter content (3 posts + 1 reel)',
+      'pr.bun1.i4': 'Basic care — 3 months free',
+      'pr.bun1.for': 'Baker, hairdresser, physio — starting out, smaller budget',
+      'pr.bun1.after': '€29/mo (Basic care)',
+      'pr.bun2.name': 'Growth',
+      'pr.bun2.tag': 'Serious growth with branding, content & AI.',
+      'pr.bun2.free': '3 months free Professional care included',
+      'pr.bun2.iweb': 'Growth website',
+      'pr.bun2.iapp': 'Starter app',
+      'pr.bun2.i2': 'Growth branding',
+      'pr.bun2.i3': 'Growth content (5 posts + 2 reels)',
+      'pr.bun2.i4': 'AI Assistant setup + 3 months prepaid',
+      'pr.bun2.i5': 'Professional care — 3 months free',
+      'pr.bun2.for': 'Restaurant, gym, dentist — serious growth',
+      'pr.bun2.after': '€129/mo (AI) + €59/mo (care)',
+      'pr.bun3.name': 'Max',
+      'pr.bun3.tag': 'Everything Flowbase has to offer.',
+      'pr.bun3.free': '3 months free Premium care included',
+      'pr.bun3.iweb': 'Max website',
+      'pr.bun3.iapp': 'Growth app',
+      'pr.bun3.i2': 'Max branding',
+      'pr.bun3.i3': 'Max content (8 posts + 3 reels)',
+      'pr.bun3.i4': 'AI Assistant setup + 3 months prepaid',
+      'pr.bun3.i5': 'Premium care — 3 months free',
+      'pr.bun3.for': 'Dental clinic, contractor, gym — all in one go',
+      'pr.bun3.after': '€129/mo (AI) + €99/mo (care)',
+      /* individual services */
+      'pr.ind.eyebrow': 'Individual services',
+      'pr.ind.title': 'Or pick exactly what you need.',
+      'pr.ind.lead': 'Every service is available separately — no bundle required.',
+      'pr.stab.web': 'Websites',
+      'pr.stab.app': 'Apps',
+      'pr.stab.brand': 'Branding',
+      'pr.stab.content': 'Content',
+      'pr.stab.ai': 'AI Assistant',
+      /* content one-time packs */
+      'pr.bill.content.once': 'One-time content pack',
+      'pr.con.p3r1': '3 posts + 1 reel',
+      'pr.con.p5r2': '5 posts + 2 reels',
+      'pr.con.p8r3': '8 posts + 3 reels',
+      'pr.alac.title': 'À la carte',
+      'pr.alac.sub': 'One-time — no subscription',
+      'pr.alac.post': 'Extra post (image + caption)',
+      'pr.alac.reel': 'Extra reel (short video + caption)',
+      /* AI assistant */
+      'pr.ai.name': 'AI Assistant',
+      'pr.ai.tag': 'Your own AI, built for your business — connected via Telegram or WhatsApp.',
+      'pr.ai.billOnce': 'One-time setup',
+      'pr.ai.billMo': '+ monthly subscription',
+      'pr.ai.setupLabel': 'Setup',
+      'pr.ai.setupUnit': 'one-time',
+      'pr.ai.moLabel': 'Monthly',
+      'pr.ai.t1': 'Dedicated VPS',
+      'pr.ai.t2': 'Telegram / WhatsApp connection',
+      'pr.ai.t3': '2 custom automations',
+      'pr.ai.t4': 'Persistent memory',
+      'pr.ai.t5': 'Daily / weekly summaries',
+      'pr.ai.t6': 'Email support',
+      'pr.ai.extra': 'Extra automation: €49 one-time per automation',
+      'pr.ai.cta': 'Get started',
+      /* care plans */
+      'pr.care.eyebrow': 'Monthly care',
+      'pr.care.title': 'Keep your site fast, safe, and current.',
+      'pr.care.web.title': 'Website Care Plans',
+      'pr.care2.name': 'Professional Care',
+      'pr.care2.t2': 'Monthly edits',
+      'pr.care2.t3': 'Performance checks',
+      'pr.caren.updates': 'Updates & backups',
+      'pr.caren.report': 'Monthly report',
+      'pr.caren.seo': 'SEO tweaks',
+      /* updated titles */
+      'pricing.title': 'Clear pricing. No surprises.',
+      'pricing.lead': 'Choose a bundle and get everything in one go — or pick exactly what you need.'
     },
 
     nl: {
@@ -875,7 +985,117 @@
       'pr.appcare.t2': 'Database',
       'pr.appcare.t3': 'Updates en bugfixes',
       'pr.appcare.t4': 'Uptime-monitoring',
-      'pr.appcare.note': 'Alle web-apps vereisen een maandelijks plan voor hosting, database en onderhoud.'
+      'pr.appcare.note': 'Alle web-apps vereisen een maandelijks plan voor hosting, database en onderhoud.',
+
+      /* bundels */
+      'pr.bun.eyebrow': 'Bundelpakketten',
+      'pr.bun.title': 'Alles in één pakket.',
+      'pr.bun.lead': 'Website, branding en content — met 3 maanden gratis onderhoud. Samen sterker, voordeliger geprijsd.',
+      'pr.bun.was': 'Normaal',
+      'pr.bun.saving': 'Je bespaart',
+      'pr.bun.after': 'Vanaf maand 4:',
+      'pr.bun.cta': 'Kies dit pakket',
+      'pr.bun.toggle.web': 'Website',
+      'pr.bun.toggle.app': 'App',
+      'pr.bun.cmp.title': 'Wat zit er in elke bundel',
+      'pr.bun.cmp.site': 'Website / App',
+      'pr.bun.cmp.brand': 'Branding',
+      'pr.bun.cmp.content': 'Content',
+      'pr.bun.cmp.ai': 'AI Assistent',
+      'pr.bun.cmp.care': 'Onderhoudsplan',
+      'pr.bun.cmp.price': 'Prijs',
+      'pr.bun.cmp.b1site': 'Starter-website',
+      'pr.bun.cmp.b2site': 'Growth-website of Starter-app',
+      'pr.bun.cmp.b3site': 'Max-website of Growth-app',
+      'pr.bun.cmp.b1brand': 'Starter',
+      'pr.bun.cmp.b2brand': 'Growth',
+      'pr.bun.cmp.b3brand': 'Max',
+      'pr.bun.cmp.b1con': 'Starter (3+1)',
+      'pr.bun.cmp.b2con': 'Growth (5+2)',
+      'pr.bun.cmp.b3con': 'Max (8+3)',
+      'pr.bun.cmp.b1care': 'Basic (3mnd gratis)',
+      'pr.bun.cmp.b2care': 'Professional (3mnd gratis)',
+      'pr.bun.cmp.b3care': 'Premium (3mnd gratis)',
+      'pr.bun.cmp.b2price': 'vanaf €2.295',
+      'pr.bun.cmp.b3price': 'vanaf €3.695',
+      'pr.bun1.name': 'Starter',
+      'pr.bun1.tag': 'Professioneel online in één keer.',
+      'pr.bun1.free': '3 maanden gratis Basic onderhoud inbegrepen',
+      'pr.bun1.i1': 'Starter-website',
+      'pr.bun1.i2': 'Starter-branding',
+      'pr.bun1.i3': 'Starter-content (3 posts + 1 reel)',
+      'pr.bun1.i4': 'Basic care — 3 maanden gratis',
+      'pr.bun1.for': 'Bakker, kapper, fysiotherapeut — net beginnen, klein budget',
+      'pr.bun1.after': '€29/mnd (Basic care)',
+      'pr.bun2.name': 'Growth',
+      'pr.bun2.tag': 'Serieuze groei met branding, content én AI.',
+      'pr.bun2.free': '3 maanden gratis Professional onderhoud inbegrepen',
+      'pr.bun2.iweb': 'Growth-website',
+      'pr.bun2.iapp': 'Starter-app',
+      'pr.bun2.i2': 'Growth-branding',
+      'pr.bun2.i3': 'Growth-content (5 posts + 2 reels)',
+      'pr.bun2.i4': 'AI Assistent setup + 3 maanden prepaid',
+      'pr.bun2.i5': 'Professional care — 3 maanden gratis',
+      'pr.bun2.for': 'Restaurant, gym, tandarts — serieuze groei',
+      'pr.bun2.after': '€129/mnd (AI) + €59/mnd (care)',
+      'pr.bun3.name': 'Max',
+      'pr.bun3.tag': 'Alles wat Flowbase te bieden heeft.',
+      'pr.bun3.free': '3 maanden gratis Premium onderhoud inbegrepen',
+      'pr.bun3.iweb': 'Max-website',
+      'pr.bun3.iapp': 'Growth-app',
+      'pr.bun3.i2': 'Max-branding',
+      'pr.bun3.i3': 'Max-content (8 posts + 3 reels)',
+      'pr.bun3.i4': 'AI Assistent setup + 3 maanden prepaid',
+      'pr.bun3.i5': 'Premium care — 3 maanden gratis',
+      'pr.bun3.for': 'Tandartskliniek, aannemer, gym — alles in één keer',
+      'pr.bun3.after': '€129/mnd (AI) + €99/mnd (care)',
+      /* losse diensten */
+      'pr.ind.eyebrow': 'Losse diensten',
+      'pr.ind.title': 'Of kies precies wat je nodig hebt.',
+      'pr.ind.lead': 'Elke dienst is ook los beschikbaar — geen bundel verplicht.',
+      'pr.stab.web': 'Websites',
+      'pr.stab.app': 'Apps',
+      'pr.stab.brand': 'Branding',
+      'pr.stab.content': 'Content',
+      'pr.stab.ai': 'AI Assistent',
+      /* content eenmalig */
+      'pr.bill.content.once': 'Eenmalig contentpakket',
+      'pr.con.p3r1': '3 posts + 1 reel',
+      'pr.con.p5r2': '5 posts + 2 reels',
+      'pr.con.p8r3': '8 posts + 3 reels',
+      'pr.alac.title': 'À la carte',
+      'pr.alac.sub': 'Eenmalig — geen abonnement',
+      'pr.alac.post': 'Extra post (afbeelding + bijschrift)',
+      'pr.alac.reel': 'Extra reel (korte video + bijschrift)',
+      /* AI assistent */
+      'pr.ai.name': 'AI Assistent',
+      'pr.ai.tag': 'Je eigen AI, gebouwd voor jouw bedrijf — verbonden via Telegram of WhatsApp.',
+      'pr.ai.billOnce': 'Eenmalige setup',
+      'pr.ai.billMo': '+ maandelijks abonnement',
+      'pr.ai.setupLabel': 'Setup',
+      'pr.ai.setupUnit': 'eenmalig',
+      'pr.ai.moLabel': 'Maandelijks',
+      'pr.ai.t1': 'Eigen VPS',
+      'pr.ai.t2': 'Telegram / WhatsApp-koppeling',
+      'pr.ai.t3': '2 maatwerk-automatiseringen',
+      'pr.ai.t4': 'Persistent geheugen',
+      'pr.ai.t5': 'Dagelijkse / wekelijkse samenvattingen',
+      'pr.ai.t6': 'E-mailsupport',
+      'pr.ai.extra': 'Extra automatisering: €49 eenmalig per automatisering',
+      'pr.ai.cta': 'Aan de slag',
+      /* onderhoud */
+      'pr.care.eyebrow': 'Maandelijks onderhoud',
+      'pr.care.title': 'Houd je site snel, veilig en actueel.',
+      'pr.care.web.title': 'Website-onderhoudsplannen',
+      'pr.care2.name': 'Professional Care',
+      'pr.care2.t2': 'Maandelijkse aanpassingen',
+      'pr.care2.t3': 'Prestatiecheck',
+      'pr.caren.updates': 'Updates & back-ups',
+      'pr.caren.report': 'Maandrapportage',
+      'pr.caren.seo': 'SEO-verbeteringen',
+      /* titels */
+      'pricing.title': 'Eerlijke, vaste prijzen. Geen verrassingen.',
+      'pricing.lead': 'Kies een bundel en krijg alles in één keer — of stel zelf samen wat je nodig hebt.'
     }
   };
 
@@ -1085,7 +1305,7 @@
   //   1. Get a free access key at https://web3forms.com (enter hello.flowbase@outlook.com).
   //   2. Replace YOUR_WEB3FORMS_ACCESS_KEY below with that key.
   // Until a real key is set, the form gracefully falls back to a pre-filled mailto: link.
-  var WEB3FORMS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
+  var WEB3FORMS_KEY = '0ae5f285-483e-4686-baf6-d5b85c1e1de2';
 
   function showError(field, msg) {
     var wrap = field.closest('.field');
@@ -1230,6 +1450,42 @@
       window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
     });
   }
+
+  /* ---- bundle toggle (Website / App) ---- */
+  document.querySelectorAll('[data-bun]').forEach(function (card) {
+    card.querySelectorAll('.bun-toggle__btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var choice = btn.dataset.choice;
+        card.dataset.choice = choice;
+        card.querySelectorAll('.bun-toggle__btn').forEach(function (b) {
+          b.classList.toggle('is-active', b.dataset.choice === choice);
+        });
+        card.querySelectorAll('.js-bun-was, .js-bun-now, .js-bun-save').forEach(function (el) {
+          if (el.dataset[choice]) el.textContent = el.dataset[choice];
+        });
+        card.querySelectorAll('.js-web').forEach(function (el) {
+          el.hidden = choice !== 'web';
+        });
+        card.querySelectorAll('.js-app').forEach(function (el) {
+          el.hidden = choice !== 'app';
+        });
+      });
+    });
+  });
+
+  /* ---- service tabs ---- */
+  var stabs = document.querySelectorAll('.stab');
+  var stabPanels = document.querySelectorAll('.stabs__panel');
+  stabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      stabs.forEach(function (t) { t.classList.remove('is-active'); t.setAttribute('aria-selected', 'false'); });
+      stabPanels.forEach(function (p) { p.classList.remove('is-active'); p.hidden = true; });
+      tab.classList.add('is-active');
+      tab.setAttribute('aria-selected', 'true');
+      var panel = document.getElementById(tab.getAttribute('aria-controls'));
+      if (panel) { panel.classList.add('is-active'); panel.hidden = false; }
+    });
+  });
 
   /* ---- privacy / cookie note ---- */
   var cookieNote = document.getElementById('cookieNote');
