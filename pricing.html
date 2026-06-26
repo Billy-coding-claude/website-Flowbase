@@ -285,273 +285,299 @@
     </section>
 
     <!-- ========== 2 · INDIVIDUAL SERVICES (tabbed) ========== -->
-    <section class="section" id="services" aria-labelledby="ind-title">
+    <!-- ========== 2 · WEBSITES ========== -->
+    <section class="section" id="websites" aria-labelledby="web-ind-title">
       <div class="container">
-        <div class="section__head section__head--center reveal">
-          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.ind.eyebrow">Individual services</span></p>
-          <h2 class="section__title" id="ind-title" data-i18n="pr.ind.title">Or pick exactly what you need.</h2>
-          <p class="section__lead" data-i18n="pr.ind.lead">Every service is available separately &mdash; no bundle required.</p>
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.web">Websites</span></p>
+          <h2 class="section__title" id="web-ind-title" data-i18n="pr.web.title">Build a website that turns visitors into customers.</h2>
+          <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.web">One-time build</span></div>
+          <div class="bestfor-row">
+            <span class="bestfor-row__label" data-i18n="pr.bestforLabel">Best for</span>
+            <div class="tags">
+              <span class="tag" data-i18n="aud.restaurants">Restaurants</span>
+              <span class="tag" data-i18n="tag.barbers">Barbers</span>
+              <span class="tag" data-i18n="tag.clinics">Clinics</span>
+              <span class="tag" data-i18n="aud.gyms">Gyms</span>
+              <span class="tag" data-i18n="aud.contractors">Contractors</span>
+            </div>
+          </div>
         </div>
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.w1.name">Starter Website</h3></header>
+            <div class="price"><span class="price__amount">&euro;695</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w1.t1">Up to 5 pages</li>
+              <li data-i18n="pr.w1.t2">Custom design</li>
+              <li data-i18n="pr.w1.t3">Mobile responsive</li>
+              <li data-i18n="pr.w1.t4">Basic SEO</li>
+              <li data-i18n="pr.w1.t5">Contact form</li>
+              <li data-i18n="pr.w1.t6">2 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.w2.name">Growth Website</h3></header>
+            <div class="price"><span class="price__amount">&euro;1,295</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w2.t1">Up to 10 pages</li>
+              <li data-i18n="pr.w2.t2">More custom sections</li>
+              <li data-i18n="pr.w2.t3">Better animations</li>
+              <li data-i18n="pr.w2.t4">Blog support</li>
+              <li data-i18n="pr.w2.t5">SEO setup</li>
+              <li data-i18n="pr.w2.t6">3 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.w3.name">Max Website</h3></header>
+            <div class="price"><span class="price__amount">&euro;2,495+</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.w3.t1">Fully custom design</li>
+              <li data-i18n="pr.w3.t2">Advanced animations</li>
+              <li data-i18n="pr.w3.t3">Copywriting assistance</li>
+              <li data-i18n="pr.w3.t4">Premium layouts</li>
+              <li data-i18n="pr.w3.t5">Priority support</li>
+              <li data-i18n="pr.w3.t6">4 revisions</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <div class="stabs reveal">
-          <div class="stabs__nav" role="tablist" aria-label="Service categories">
-            <button type="button" class="stab is-active" role="tab" aria-selected="true" aria-controls="stab-web" data-i18n="pr.stab.web">Websites</button>
-            <button type="button" class="stab" role="tab" aria-selected="false" aria-controls="stab-app" data-i18n="pr.stab.app">Apps</button>
-            <button type="button" class="stab" role="tab" aria-selected="false" aria-controls="stab-brand" data-i18n="pr.stab.brand">Branding</button>
-            <button type="button" class="stab" role="tab" aria-selected="false" aria-controls="stab-content" data-i18n="pr.stab.content">Content</button>
-            <button type="button" class="stab" role="tab" aria-selected="false" aria-controls="stab-ai" data-i18n="pr.stab.ai">AI Assistant</button>
-          </div>
-
-          <!-- WEBSITES panel -->
-          <div class="stabs__panel is-active" id="stab-web" role="tabpanel">
-            <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.web">One-time build</span></div>
-            <div class="bestfor-row" style="margin-bottom:1.8rem">
-              <span class="bestfor-row__label" data-i18n="pr.bestforLabel">Best for</span>
-              <div class="tags">
-                <span class="tag" data-i18n="aud.restaurants">Restaurants</span>
-                <span class="tag" data-i18n="tag.barbers">Barbers</span>
-                <span class="tag" data-i18n="tag.clinics">Clinics</span>
-                <span class="tag" data-i18n="aud.gyms">Gyms</span>
-                <span class="tag" data-i18n="aud.contractors">Contractors</span>
-              </div>
-            </div>
-            <div class="grid grid--3 pricing-grid">
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.w1.name">Starter Website</h3></header>
-                <div class="price"><span class="price__amount">&euro;695</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.w1.t1">Up to 5 pages</li>
-                  <li data-i18n="pr.w1.t2">Custom design</li>
-                  <li data-i18n="pr.w1.t3">Mobile responsive</li>
-                  <li data-i18n="pr.w1.t4">Basic SEO</li>
-                  <li data-i18n="pr.w1.t5">Contact form</li>
-                  <li data-i18n="pr.w1.t6">2 revisions</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card price-card--featured reveal">
-                <span class="badge" data-i18n="bundle.badge">Most popular</span>
-                <header class="price-card__head"><h3 data-i18n="pr.w2.name">Growth Website</h3></header>
-                <div class="price"><span class="price__amount">&euro;1,295</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.w2.t1">Up to 10 pages</li>
-                  <li data-i18n="pr.w2.t2">More custom sections</li>
-                  <li data-i18n="pr.w2.t3">Better animations</li>
-                  <li data-i18n="pr.w2.t4">Blog support</li>
-                  <li data-i18n="pr.w2.t5">SEO setup</li>
-                  <li data-i18n="pr.w2.t6">3 revisions</li>
-                </ul>
-                <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.w3.name">Max Website</h3></header>
-                <div class="price"><span class="price__amount">&euro;2,495+</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.w3.t1">Fully custom design</li>
-                  <li data-i18n="pr.w3.t2">Advanced animations</li>
-                  <li data-i18n="pr.w3.t3">Copywriting assistance</li>
-                  <li data-i18n="pr.w3.t4">Premium layouts</li>
-                  <li data-i18n="pr.w3.t5">Priority support</li>
-                  <li data-i18n="pr.w3.t6">4 revisions</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-            </div>
-          </div>
-
-          <!-- APPS panel -->
-          <div class="stabs__panel" id="stab-app" role="tabpanel" hidden>
-            <div class="billing-row"><span class="bill bill--req" data-i18n="pr.bill.webapp">One-time build + required monthly care</span></div>
-            <div class="bestfor-row" style="margin-bottom:1.8rem">
-              <span class="bestfor-row__label" data-i18n="pr.wa.label">Examples</span>
-              <div class="tags">
-                <span class="tag" data-i18n="pr.wa.ex1">Booking tool</span>
-                <span class="tag" data-i18n="pr.wa.ex2">Client portal</span>
-                <span class="tag" data-i18n="pr.wa.ex3">Simple CRM</span>
-                <span class="tag" data-i18n="pr.wa.ex4">Membership site</span>
-                <span class="tag" data-i18n="pr.wa.ex5">Reservation system</span>
-                <span class="tag" data-i18n="pr.wa.ex6">Internal dashboard</span>
-              </div>
-            </div>
-            <div class="grid grid--3 pricing-grid">
-              <article class="card price-card price-card--quiet reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.wa1.name">Starter App</h3></header>
-                <div class="price"><span class="price__amount">&euro;1,495</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.wa1.t1">Landing page</li>
-                  <li data-i18n="pr.wa1.t2">User login and authentication</li>
-                  <li data-i18n="pr.wa1.t3">Simple dashboard</li>
-                  <li data-i18n="pr.wa1.t4">Database</li>
-                  <li data-i18n="pr.wa1.t5">Mobile responsive</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card price-card--quiet price-card--featured reveal">
-                <span class="badge" data-i18n="bundle.badge">Most popular</span>
-                <header class="price-card__head"><h3 data-i18n="pr.wa2.name">Growth App</h3></header>
-                <div class="price"><span class="price__amount">&euro;2,995</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.wa2.t1">Everything in Starter</li>
-                  <li data-i18n="pr.wa2.t2">Payments (Stripe / Mollie / iDEAL)</li>
-                  <li data-i18n="pr.wa2.t3">User accounts and profiles</li>
-                  <li data-i18n="pr.wa2.t4">Admin panel</li>
-                  <li data-i18n="pr.wa2.t5">Larger advanced dashboard</li>
-                  <li data-i18n="pr.wa2.t6">Email notifications</li>
-                </ul>
-                <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card price-card--quiet reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.wa3.name">Max App</h3></header>
-                <div class="price"><span class="price__amount">&euro;4,500+</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.wa3.t1">Everything in Growth</li>
-                  <li data-i18n="pr.wa3.t2">Google integrations (Calendar, login, etc.)</li>
-                  <li data-i18n="pr.wa3.t3">Third-party integrations and APIs</li>
-                  <li data-i18n="pr.wa3.t4">Advanced features and custom logic</li>
-                  <li data-i18n="pr.wa3.t5">Priority support</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
+    <!-- ========== 3 · APPS ========== -->
+    <section class="section section--alt" id="apps" aria-labelledby="app-ind-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.webapp">Web apps</span></p>
+          <h2 class="section__title" id="app-ind-title" data-i18n="pr.webapp.title">Custom software built around your business.</h2>
+          <p class="section__lead" data-i18n="pr.webapp.lead">Small, focused web apps &mdash; not bloated enterprise systems. Built fast, priced fairly, maintained monthly.</p>
+          <div class="billing-row"><span class="bill bill--req" data-i18n="pr.bill.webapp">One-time build + required monthly care</span></div>
+          <div class="bestfor-row">
+            <span class="bestfor-row__label" data-i18n="pr.wa.label">Examples</span>
+            <div class="tags">
+              <span class="tag" data-i18n="pr.wa.ex1">Booking tool</span>
+              <span class="tag" data-i18n="pr.wa.ex2">Client portal</span>
+              <span class="tag" data-i18n="pr.wa.ex3">Simple CRM</span>
+              <span class="tag" data-i18n="pr.wa.ex4">Membership site</span>
+              <span class="tag" data-i18n="pr.wa.ex5">Reservation system</span>
+              <span class="tag" data-i18n="pr.wa.ex6">Internal dashboard</span>
             </div>
           </div>
+        </div>
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card price-card--quiet reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.wa1.name">Starter App</h3></header>
+            <div class="price"><span class="price__amount">&euro;1,495</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa1.t1">Landing page</li>
+              <li data-i18n="pr.wa1.t2">User login and authentication</li>
+              <li data-i18n="pr.wa1.t3">Simple dashboard</li>
+              <li data-i18n="pr.wa1.t4">Database</li>
+              <li data-i18n="pr.wa1.t5">Mobile responsive</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card price-card--quiet price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.wa2.name">Growth App</h3></header>
+            <div class="price"><span class="price__amount">&euro;2,995</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa2.t1">Everything in Starter</li>
+              <li data-i18n="pr.wa2.t2">Payments (Stripe / Mollie / iDEAL)</li>
+              <li data-i18n="pr.wa2.t3">User accounts and profiles</li>
+              <li data-i18n="pr.wa2.t4">Admin panel</li>
+              <li data-i18n="pr.wa2.t5">Larger advanced dashboard</li>
+              <li data-i18n="pr.wa2.t6">Email notifications</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card price-card--quiet reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.wa3.name">Max App</h3></header>
+            <div class="price"><span class="price__amount">&euro;4,500+</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.wa3.t1">Everything in Growth</li>
+              <li data-i18n="pr.wa3.t2">Google integrations (Calendar, login, etc.)</li>
+              <li data-i18n="pr.wa3.t3">Third-party integrations and APIs</li>
+              <li data-i18n="pr.wa3.t4">Advanced features and custom logic</li>
+              <li data-i18n="pr.wa3.t5">Priority support</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-          <!-- BRANDING panel -->
-          <div class="stabs__panel" id="stab-brand" role="tabpanel" hidden>
-            <div class="billing-row" style="margin-bottom:1.8rem"><span class="bill bill--once" data-i18n="pr.bill.brand">One-time project</span></div>
-            <div class="grid grid--3 pricing-grid">
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.b1.name">Logo Package</h3></header>
-                <div class="price"><span class="price__amount">&euro;195</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.b1.t1">Logo</li>
-                  <li data-i18n="pr.b1.t2">PNG files</li>
-                  <li data-i18n="pr.b1.t3">SVG files</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card price-card--featured reveal">
-                <span class="badge" data-i18n="bundle.badge">Most popular</span>
-                <header class="price-card__head"><h3 data-i18n="pr.b2.name">Brand Identity</h3></header>
-                <div class="price"><span class="price__amount">&euro;495</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.b2.t1">Logo</li>
-                  <li data-i18n="pr.b2.t2">Colors</li>
-                  <li data-i18n="pr.b2.t3">Typography</li>
-                  <li data-i18n="pr.b2.t4">Social profile assets</li>
-                </ul>
-                <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.b3.name">Premium Brand System</h3></header>
-                <div class="price"><span class="price__amount">&euro;895</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.b3.t1">Logo</li>
-                  <li data-i18n="pr.b3.t2">Colors</li>
-                  <li data-i18n="pr.b3.t3">Typography</li>
-                  <li data-i18n="pr.b3.t4">Brand guide</li>
-                  <li data-i18n="pr.b3.t5">Brand voice</li>
-                  <li data-i18n="pr.b3.t6">Social assets</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
-              </article>
-            </div>
+    <!-- ========== 4 · BRANDING ========== -->
+    <section class="section" id="branding" aria-labelledby="brand-ind-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.brand">Branding</span></p>
+          <h2 class="section__title" id="brand-ind-title" data-i18n="pr.brand.title">A professional identity for your business.</h2>
+          <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.brand">One-time project</span></div>
+        </div>
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.b1.name">Logo Package</h3></header>
+            <div class="price"><span class="price__amount">&euro;195</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b1.t1">Logo</li>
+              <li data-i18n="pr.b1.t2">PNG files</li>
+              <li data-i18n="pr.b1.t3">SVG files</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.b2.name">Brand Identity</h3></header>
+            <div class="price"><span class="price__amount">&euro;495</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b2.t1">Logo</li>
+              <li data-i18n="pr.b2.t2">Colors</li>
+              <li data-i18n="pr.b2.t3">Typography</li>
+              <li data-i18n="pr.b2.t4">Social profile assets</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.b3.name">Premium Brand System</h3></header>
+            <div class="price"><span class="price__amount">&euro;895</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.b3.t1">Logo</li>
+              <li data-i18n="pr.b3.t2">Colors</li>
+              <li data-i18n="pr.b3.t3">Typography</li>
+              <li data-i18n="pr.b3.t4">Brand guide</li>
+              <li data-i18n="pr.b3.t5">Brand voice</li>
+              <li data-i18n="pr.b3.t6">Social assets</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose plan</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 5 · AI ASSISTANT ========== -->
+    <section class="section section--alt" id="ai-assistant" aria-labelledby="ai-ind-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.stab.ai">AI Assistant</span></p>
+          <h2 class="section__title" id="ai-ind-title" data-i18n="pr.ai.name">AI Assistant</h2>
+          <p class="section__lead" data-i18n="pr.ai.tag">Your own AI, built for your business &mdash; connected via Telegram or WhatsApp.</p>
+          <div class="billing-row">
+            <span class="bill bill--once" data-i18n="pr.ai.billOnce">One-time setup</span>
+            <span class="bill bill--monthly" data-i18n="pr.ai.billMo">+ monthly subscription</span>
           </div>
-
-          <!-- CONTENT panel (one-time packs) -->
-          <div class="stabs__panel" id="stab-content" role="tabpanel" hidden>
-            <div class="billing-row" style="margin-bottom:1.8rem"><span class="bill bill--once" data-i18n="pr.bill.content.once">One-time content pack</span></div>
-            <div class="grid grid--3 pricing-grid">
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.s1.name">Starter Content</h3></header>
-                <div class="price"><span class="price__amount">&euro;95</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.con.p3r1">3 posts + 1 reel</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose pack</a>
-              </article>
-              <article class="card price-card price-card--featured reveal">
-                <span class="badge" data-i18n="bundle.badge">Most popular</span>
-                <header class="price-card__head"><h3 data-i18n="pr.s2.name">Growth Content</h3></header>
-                <div class="price"><span class="price__amount">&euro;175</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.con.p5r2">5 posts + 2 reels</li>
-                </ul>
-                <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose pack</a>
-              </article>
-              <article class="card price-card reveal">
-                <header class="price-card__head"><h3 data-i18n="pr.s3.name">Max Content</h3></header>
-                <div class="price"><span class="price__amount">&euro;249</span></div>
-                <ul class="ticks">
-                  <li data-i18n="pr.con.p8r3">8 posts + 3 reels</li>
-                </ul>
-                <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose pack</a>
-              </article>
-            </div>
-            <div class="buy reveal">
-              <div class="buy__head">
-                <span class="buy__tag" data-i18n="pr.alac.sub">One-time &mdash; no subscription</span>
-                <h3 class="buy__title" data-i18n="pr.alac.title">&Agrave; la carte</h3>
+        </div>
+        <div class="card ai-card reveal">
+          <div>
+            <div class="ai-card__prices">
+              <div class="ai-price">
+                <span class="ai-price__label" data-i18n="pr.ai.setupLabel">Setup</span>
+                <span class="ai-price__amount">&euro;349</span>
+                <span class="ai-price__unit" data-i18n="pr.ai.setupUnit">one-time</span>
               </div>
-              <div class="buy__groups">
-                <div class="buy__group">
-                  <span class="buy__grouplabel" data-i18n="pr.sep.posts">Posts</span>
-                  <ul class="buy__list">
-                    <li class="buyrow"><span class="buyrow__name" data-i18n="pr.alac.post">Extra post (image + caption)</span><span class="buyrow__price">&euro;25</span></li>
-                  </ul>
-                </div>
-                <div class="buy__group">
-                  <span class="buy__grouplabel" data-i18n="pr.sep.reels">Reels</span>
-                  <ul class="buy__list">
-                    <li class="buyrow"><span class="buyrow__name" data-i18n="pr.alac.reel">Extra reel (short video + caption)</span><span class="buyrow__price">&euro;39</span></li>
-                  </ul>
-                </div>
+              <div class="ai-price">
+                <span class="ai-price__label" data-i18n="pr.ai.moLabel">Monthly</span>
+                <span class="ai-price__amount">&euro;129</span>
+                <span class="ai-price__unit" data-i18n="unit.permo">/mo</span>
               </div>
-              <p class="buy__note" data-i18n="pr.sep.note">Each post includes image and caption, ready to upload.</p>
             </div>
+            <p class="ai-card__extra" data-i18n="pr.ai.extra">Extra automation: &euro;49 one-time per automation</p>
+            <a href="contact.html" class="btn btn--primary" style="margin-top:1.4rem" data-i18n="pr.ai.cta">Get started</a>
           </div>
-
-          <!-- AI ASSISTANT panel -->
-          <div class="stabs__panel" id="stab-ai" role="tabpanel" hidden>
-            <div class="billing-row" style="margin-bottom:1.8rem">
-              <span class="bill bill--once" data-i18n="pr.ai.billOnce">One-time setup</span>
-              <span class="bill bill--monthly" data-i18n="pr.ai.billMo">+ monthly subscription</span>
-            </div>
-            <div class="card ai-card reveal">
-              <div>
-                <div style="margin-bottom:1rem">
-                  <h3 style="font-size:1.55rem;font-weight:500;letter-spacing:-.02em;margin-bottom:.5rem" data-i18n="pr.ai.name">AI Assistant</h3>
-                  <p class="price-card__for" data-i18n="pr.ai.tag">Your own AI, built for your business &mdash; connected via Telegram or WhatsApp.</p>
-                </div>
-                <div class="ai-card__prices">
-                  <div class="ai-price">
-                    <span class="ai-price__label" data-i18n="pr.ai.setupLabel">Setup</span>
-                    <span class="ai-price__amount">&euro;349</span>
-                    <span class="ai-price__unit" data-i18n="pr.ai.setupUnit">one-time</span>
-                  </div>
-                  <div class="ai-price">
-                    <span class="ai-price__label" data-i18n="pr.ai.moLabel">Monthly</span>
-                    <span class="ai-price__amount">&euro;129</span>
-                    <span class="ai-price__unit" data-i18n="unit.permo">/mo</span>
-                  </div>
-                </div>
-                <p class="ai-card__extra" data-i18n="pr.ai.extra">Extra automation: &euro;49 one-time per automation</p>
-                <a href="contact.html" class="btn btn--primary" style="margin-top:1.4rem" data-i18n="pr.ai.cta">Get started</a>
-              </div>
-              <div>
-                <ul class="ticks">
-                  <li data-i18n="pr.ai.t1">Dedicated VPS</li>
-                  <li data-i18n="pr.ai.t2">Telegram / WhatsApp connection</li>
-                  <li data-i18n="pr.ai.t3">2 custom automations</li>
-                  <li data-i18n="pr.ai.t4">Persistent memory</li>
-                  <li data-i18n="pr.ai.t5">Daily / weekly summaries</li>
-                  <li data-i18n="pr.ai.t6">Email support</li>
-                </ul>
-              </div>
-            </div>
+          <div>
+            <ul class="ticks">
+              <li data-i18n="pr.ai.t1">Dedicated VPS</li>
+              <li data-i18n="pr.ai.t2">Telegram / WhatsApp connection</li>
+              <li data-i18n="pr.ai.t3">2 custom automations</li>
+              <li data-i18n="pr.ai.t4">Persistent memory</li>
+              <li data-i18n="pr.ai.t5">Daily / weekly summaries</li>
+              <li data-i18n="pr.ai.t6">Email support</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- ========== 6 · CONTENT ========== -->
+    <section class="section" id="content" aria-labelledby="con-ind-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="cat-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-7"/><path d="M21 8v5h-5"/></svg>
+          </span>
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span><span data-i18n="pr.cat.content">Social media content</span></p>
+          <h2 class="section__title" id="con-ind-title" data-i18n="pr.content.title">Content for your business &mdash; ready to post.</h2>
+          <p class="section__lead" data-i18n="pr.content.lead">You receive the content and post it yourself. No scheduling, no management &mdash; just great content delivered to you.</p>
+          <div class="billing-row"><span class="bill bill--once" data-i18n="pr.bill.content.once">One-time content pack</span></div>
+        </div>
+        <div class="grid grid--3 pricing-grid">
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.s1.name">Starter Content</h3></header>
+            <div class="price"><span class="price__amount">&euro;95</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.con.p3r1">3 posts + 1 reel</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose pack</a>
+          </article>
+          <article class="card price-card price-card--featured reveal">
+            <span class="badge" data-i18n="bundle.badge">Most popular</span>
+            <header class="price-card__head"><h3 data-i18n="pr.s2.name">Growth Content</h3></header>
+            <div class="price"><span class="price__amount">&euro;175</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.con.p5r2">5 posts + 2 reels</li>
+            </ul>
+            <a href="contact.html" class="btn btn--light btn--block" data-i18n="pr.choose">Choose pack</a>
+          </article>
+          <article class="card price-card reveal">
+            <header class="price-card__head"><h3 data-i18n="pr.s3.name">Max Content</h3></header>
+            <div class="price"><span class="price__amount">&euro;249</span></div>
+            <ul class="ticks">
+              <li data-i18n="pr.con.p8r3">8 posts + 3 reels</li>
+            </ul>
+            <a href="contact.html" class="btn btn--outline btn--block" data-i18n="pr.choose">Choose pack</a>
+          </article>
+        </div>
+        <!-- A la carte -->
+        <div class="buy reveal">
+          <div class="buy__head">
+            <span class="buy__tag" data-i18n="pr.alac.sub">One-time &mdash; no subscription</span>
+            <h3 class="buy__title" data-i18n="pr.alac.title">&Agrave; la carte</h3>
+          </div>
+          <div class="buy__groups">
+            <div class="buy__group">
+              <span class="buy__grouplabel" data-i18n="pr.sep.posts">Posts</span>
+              <ul class="buy__list">
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.alac.post">Extra post (image + caption)</span><span class="buyrow__price">&euro;25</span></li>
+              </ul>
+            </div>
+            <div class="buy__group">
+              <span class="buy__grouplabel" data-i18n="pr.sep.reels">Reels</span>
+              <ul class="buy__list">
+                <li class="buyrow"><span class="buyrow__name" data-i18n="pr.alac.reel">Extra reel (short video + caption)</span><span class="buyrow__price">&euro;39</span></li>
+              </ul>
+            </div>
+          </div>
+          <p class="buy__note" data-i18n="pr.sep.note">Each post includes image and caption, ready to upload.</p>
+        </div>
+      </div>
+    </section>
+
 
     <!-- ========== 3 · CARE PLANS ========== -->
     <section class="section section--alt" id="care-plans" aria-labelledby="care-title">
